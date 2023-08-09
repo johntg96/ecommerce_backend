@@ -6,6 +6,7 @@ const { Category, Product } = require('../../models');
 router.get('/', (req, res) => {
   // find all categories
   // be sure to include its associated Products
+  res.status(200).json(`api get route connected`);
 });
 
 router.get('/:id', (req, res) => {

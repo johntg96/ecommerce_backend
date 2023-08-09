@@ -19,14 +19,7 @@ Product.init(
     },
     stock: {
       type: DataTypes.INTEGER,
-    },
-    category_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'category',  // This should match the actual table name for Category
-        key: 'id',
-      },
-    },
+    }
   },
   {
     sequelize,

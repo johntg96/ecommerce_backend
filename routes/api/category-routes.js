@@ -1,5 +1,4 @@
-// /api/categories/ express routes
-
+// /api/categories
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
 

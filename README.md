@@ -1,7 +1,7 @@
 # ecommerce_backend
 
 ## Description
-Skeleton for simple ecommerce backend with MySQL (via sequelize ORM)
+Skeleton for simple ecommerce backend with MySQL (via sequelize ORM).
 
 ## Installation
 ```
